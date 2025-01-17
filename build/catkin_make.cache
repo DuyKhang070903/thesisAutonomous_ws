@@ -1,0 +1,2 @@
+create_map:kinematic:launch_pkg:robot/robot_bringup:robot_gui:robot_pose_ekf:robot_simulate:rplidar_ros:slam_gmapping/gmapping:slam_gmapping/slam_gmapping:teleop_keyboard
+-DCATKIN_DEVEL_PREFIX=/home/duykhang0709/thesisAutonomous_ws/devel -DCMAKE_INSTALL_PREFIX=/home/duykhang0709/thesisAutonomous_ws/install -G Unix Makefiles
