@@ -426,6 +426,12 @@ actionlib_DIR:PATH=/opt/ros/noetic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
 
+//Value Computed by CMake
+amcl_pkg_BINARY_DIR:STATIC=/home/duykhang0709/thesisAutonomous_ws/build/amcl_pkg
+
+//Value Computed by CMake
+amcl_pkg_SOURCE_DIR:STATIC=/home/duykhang0709/thesisAutonomous_ws/src/amcl_pkg
+
 //The directory containing a CMake configuration file for bond.
 bond_DIR:PATH=/opt/ros/noetic/share/bond/cmake
 
@@ -585,6 +591,12 @@ robot_pose_ekf_BINARY_DIR:STATIC=/home/duykhang0709/thesisAutonomous_ws/build/ro
 
 //Value Computed by CMake
 robot_pose_ekf_SOURCE_DIR:STATIC=/home/duykhang0709/thesisAutonomous_ws/src/robot_pose_ekf
+
+//Value Computed by CMake
+robot_pose_publisher_BINARY_DIR:STATIC=/home/duykhang0709/thesisAutonomous_ws/build/robot_pose_publisher-develop
+
+//Value Computed by CMake
+robot_pose_publisher_SOURCE_DIR:STATIC=/home/duykhang0709/thesisAutonomous_ws/src/robot_pose_publisher-develop
 
 //Value Computed by CMake
 robot_simulate_BINARY_DIR:STATIC=/home/duykhang0709/thesisAutonomous_ws/build/robot_simulate
@@ -864,7 +876,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

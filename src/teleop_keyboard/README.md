@@ -1,27 +1,3 @@
-# teleop_twist_keyboard_cpp
-C++ Implementation of the Generic Keyboard Teleop for ROS: https://github.com/ros-teleop/teleop_twist_keyboard
-
-## Features
-
-This particular implementation does away with keeping the history of previous speed settings, and heavily cuts down on the amount of printing that is done to the terminal via the use of carriage returns (\r).
-
-Furthermore, the last command that was sent is reflected, and invalid commands are identified as such.
-
-
-
-## Installing the Package
-
-As per standard ROS practice, make a workspace, go to the workspace's src directory, and clone this repository, then run catkin_make in the root of the workspace, and source the resulting setup.bash!
-
-```bash
-$ git clone https://github.com/methylDragon/teleop_twist_keyboard_cpp.git
-$ cd ..
-$ catkin_make
-
-$ source devel/setup.bash
-```
-
-
 
 ## Running the Node
 
@@ -66,8 +42,5 @@ e/c : increase/decrease only angular speed by 10%
 
 CTRL-C to quit
 ```
-
-
-
 ------
 

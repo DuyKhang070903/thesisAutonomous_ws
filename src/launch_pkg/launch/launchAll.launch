@@ -21,7 +21,7 @@
 
     <!-- localization -->
     <!-- Map server -->
-    <arg name="map_file" default="/home/archie/robot_ws/map1.yaml"/>
+    <arg name="map_file" default="/home/duykhang0709/thesisAutonomous_ws/create_map/map/map1.yaml"/>
     <node pkg="map_server" name="map_server" type="map_server" args="$(arg map_file)"/>
 
     <!-- AMCL -->
