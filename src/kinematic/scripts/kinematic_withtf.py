@@ -246,17 +246,14 @@ def service_shutdown(signum, frame):
     raise ServiceExit
 
 def main():
-    # Register the signal handlers
     signal.signal(signal.SIGTERM, service_shutdown)
     signal.signal(signal.SIGINT, service_shutdown)
     print('Starting main program')
 
-    # Start the job threads
     try:
         programer = kinematic(1)
         programer.start()
 
-        # Keep the main thread running, otherwise signals are ignored.
         while programer.is_exit:
             programer.run_getVel()
             time.sleep(0.001)

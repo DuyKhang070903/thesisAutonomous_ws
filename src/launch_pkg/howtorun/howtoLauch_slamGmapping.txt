@@ -28,4 +28,4 @@ or
 rosrun teleop_keyboard teleop_twist_keyboard
 
 7. Save map
-rosrun map_server map_saver -f /home/duykhang0709/thesisAutonomous_ws/src/create_map/map/my_map
+rosrun map_server map_saver -f /home/duykhang0709/thesisAutonomous_ws/src/create_map/map/map1

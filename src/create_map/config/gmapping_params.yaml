@@ -20,8 +20,8 @@ resampleThreshold: 0.5   # Ngưỡng resampling Neff
 particles: 50            # Số lượng particles của bộ lọc
 xmin: -10.0              # kích thước map bắt đầu
 ymin: -10.0
-xmax: 10.0               # kích thước map ban đầu
-ymax: 10.0
+xmax: 40.0               # kích thước map ban đầu
+ymax: 40.0
 delta: 0.05              # độ phan giải của map
 llsamplerange: 0.01      # Khoảng lấy mẫu translation cho likelihood
 llsamplestep: 0.01       # bước lấy mẫu translation cho likelihood 

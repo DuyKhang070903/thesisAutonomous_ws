@@ -1,0 +1,22 @@
+#------ File launch Path ------#
+path_firstWork  : /home/duykhang0709/thesisAutonomous_ws/src/launch_pkg/launch/firstWork.launch # clean log
+# -
+path_serial       : /home/duykhang0709/thesisAutonomous_ws/src/robot/robot_bringup/launch/robot.launch
+# -
+path_lidar     : /home/duykhang0709/thesisAutonomous_ws/src/rplidar_ros/launch/rplidar_a1.launch
+# --
+path_amcl_map: /home/duykhang0709/thesisAutonomous_ws/src/amcl_pkg/launch/navigation.launch
+
+# -- 
+path_ekf: /home/duykhang0709/thesisAutonomous_ws/src/launch_pkg/launch/robotpose_ekf.launch
+
+# --
+path_slam: /home/duykhang0709/thesisAutonomous_ws/src/create_map/launch/run_gmapping.launch
+
+#path_navigation : /home/duykhang0709/thesisAutonomous_ws/src/my_navigation/launch/navigation.launch
+# -- 
+path_kinematic  : /home/duykhang0709/thesisAutonomous_ws/src/kinematic/launch/kinematic.launch
+# -- 
+path_rviz : /home/duykhang0709/thesisAutonomous_ws/src/launch_pkg/launch/rviz_navigation.launch
+
+

@@ -1,14 +1,3 @@
-/*!
- * \file robot_pose_publisher.cpp
- * \brief Publishes the robot's position in a geometry_msgs/Pose message.
- *
- * Publishes the robot's position in a geometry_msgs/Pose message based on the TF
- * difference between /map and /base_link.
- *
- * \author Russell Toris - rctoris@wpi.edu
- * \date April 3, 2014
- */
-
 #include <geometry_msgs/PoseStamped.h>
 #include <geometry_msgs/Pose.h>
 #include <ros/ros.h>
